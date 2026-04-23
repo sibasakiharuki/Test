@@ -24,7 +24,7 @@ public class Greeting2 extends HttpServlet  {
 		
 		Page.header(out);
 
-		out.println("<p>こんにちは、" + user + "さん！</p>");
+		out.println("<p>こんばんは、" + user + "さん！</p>");
 
 		Page.footer(out);
 		
